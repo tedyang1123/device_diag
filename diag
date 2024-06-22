@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""
+DIAGNOSTIC COMMAND
+"""
+import click
+
+from cmd import cpu, dimm, ssd
+
+
+@click.group()
+def cli():
+    """diag - Diagnostic Command"""
+    pass
+
+
+cli.add_command(cpu.cli,        name="cpu")
+cli.add_command(dimm.cli,       name="dimm")
+cli.add_command(ssd.cli,        name="ssd")
+
+
+if __name__ == "__main__":
+    cli()
+

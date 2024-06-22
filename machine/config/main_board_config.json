@@ -1,0 +1,6 @@
+{
+    "temperature": {
+        "cpu_temp": {
+            "chip_name": "tmp75", "access_type": "smbus", "i2c_bus": 0 "i2c_addr": "0x48"}
+    }
+}

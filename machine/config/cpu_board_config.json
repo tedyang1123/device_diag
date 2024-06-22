@@ -1,0 +1,12 @@
+{
+    "cpu": 1,
+    "dimm": [],
+    "eeprom": [],
+    "sata_ssd": [],
+    "nvme_ssd": [],
+    "mgmt_port": [],
+    "power": [],
+    "psu": [],
+    "temperature": [],
+    "sfp": []
+}
